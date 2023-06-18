@@ -1,0 +1,11 @@
+/* Override slick-slider margins */
+.slick-slider .slick-slide {
+  margin: 0 15px;
+}
+
+/* Override slick-list padding */
+.slick-list {
+  padding: 0 20px;
+}
+
+

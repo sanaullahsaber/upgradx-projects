@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 
 import img1 from "../../../public/Investors/InvCompany1.png";

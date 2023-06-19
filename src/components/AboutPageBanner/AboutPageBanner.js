@@ -16,7 +16,7 @@ const AboutPageBanner = () => {
           sell <br />
           financial products & earn up to Rs. 1 lakh every month.
         </p>
-        <p className="mt-2 leading-10 text-white font-extrabold text-center tracking-[0.2em]">
+        <p className="mt-2 md:leading-10 leading-none text-white font-extrabold text-center tracking-[0.2em]">
           EARN BETTER. LIVE BETTER.
         </p>
       </div>

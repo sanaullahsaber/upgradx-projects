@@ -1,5 +1,6 @@
+"use client"
 import React from 'react';
-import './WeEvolved.css'
+
 import Image from 'next/image';
 import growth from "../../../public/Growth.png"
 const WeEvolved = () => {

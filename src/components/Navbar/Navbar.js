@@ -84,7 +84,7 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="/"
+              href="/about"
               className="text-black block px-3 py-2 rounded-md text-base font-medium"
             >
               About

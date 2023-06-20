@@ -40,7 +40,7 @@
     letter-spacing: 2px;
     font-size: 1.4rem;
     font-weight: 800;
-    margin-bottom: 2vw;
+    /* margin-bottom: 2vw; */
 }
 p {
     display: block;
@@ -60,23 +60,78 @@ p {
 
 /* -------------------------------------- */
 
-/* body {
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-[class^="number-slide"],
-[class*=" number-slide"] {
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color: #fff;
-  font-weight: 500;
- 
-  
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
 }
 
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 780px;
+  height: 110px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.swiper-pagination-progressbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%; /* Set the desired width for the progress bar */
+  height: 2px;
+  background-color: #fff; /* Set the background color to white */
+}
+.swiper-pagination-progressbar-fill{
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  .mb-w {
+   width: 332px;
+     /* Adjust the height as needed for smaller screens */
+  }
+  .swiper-pagination-progressbar{
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  .mb-w {
+    /* height: 96px; */
+    width: 332px;
+    /* Additional styles specific to smaller screens */
+  }
+  .swiper-pagination-progressbar{
+    width: 50%;
+  }
+}

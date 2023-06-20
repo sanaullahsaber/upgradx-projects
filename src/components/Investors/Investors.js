@@ -16,6 +16,7 @@ const Investors = () => {
           <p className="text-4xl md:p-0 p-5 font-extrabold text-[#2F3440]">
             Meet the Investors
           </p>
+          
           <div className="ml-10 mt-24">
 
           <div className="mt-10 mb-20 grid grid-cols-3 md:grid-cols-4 gap-3">

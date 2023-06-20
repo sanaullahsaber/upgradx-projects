@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Featured = () => {
   return (
     <div className="bg-[#FAFBFE] ">
-      <div className="max-w-screen-2xl mx-auto mt-20">
+      <div className="max-w-screen-2xl mx-auto mt-20 py-10">
         <p className="text-4xl md:p-0 p-5 font-extrabold text-[#2F3440]">
           Got Featured
         </p>

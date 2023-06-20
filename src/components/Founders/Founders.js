@@ -14,6 +14,7 @@ import Image from "next/image";
 const Founders = () => {
   return (
     <div className="max-w-screen-2xl mx-auto mt-20">
+      
       <div className="mt-10 mb-20 grid grid-cols-3 md:grid-cols-5 md:gap-20 gap-3">
         <div className="md:p-0 p-5">
           <Image
